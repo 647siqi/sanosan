@@ -1,0 +1,133 @@
+.content .container_03{width: 100%; height: 100%; position: absolute; overflow: hidden; visibility: hidden;}
+.content .container_03 .fenxiang{width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: url(../images/fenxiang.png) no-repeat;background-size: cover;}
+.fenxiang_hide{display: none;}
+.fenxiang_show{display: block;}
+.content .container_03 .biao{ width: 2.29rem; height: 20.1%; background: url(../images/biao.png) no-repeat center center; background-size: contain; position: absolute; top: 3.31%; left: 3.80rem;}
+.content .container_03 .grade{ width: 100%; height: auto; text-align: center; font-size: 0.34rem; color: #d82d2e; position: absolute; top: 23.2%;}
+.content .container_03 .grade span{font-size: 0.48rem;}
+.content .container_03 .fen{width: 4.29rem; height: 12.6%; background-repeat: no-repeat; background-size: contain;background-position: center center; position: absolute; top:29.7%; left: 50%; margin-left: -2.145rem;}
+.fen_anime{
+	animation: zoom linear 3s infinite;
+	-ms-animation:zoom linear 3s infinite;
+	-moz-animation:zoom linear 3s infinite;
+	-webkit-animation:zoom linear 3s infinite;
+	-o-animation:zoom linear 3s infinite;
+}
+.content .container_03 .exceed{width: 100%; text-align: center; font-size: 0.34rem; position: absolute; top: 43.3%;}
+.content .container_03 .btn_share{width: 3.25rem; height: 14.5%; background-image: url(../images/btn_bask.png);background-repeat: no-repeat; background-size: contain;background-position: center center; position: absolute; top: 50.5%; left: 50%; margin-left: -1.625rem;}
+.btn_share_anime{
+	animation: zoom 3s linear 0.1s infinite;
+	-ms-animation:zoom 3s linear 0.1s infinite;
+	-moz-animation:zoom 3s linear 0.1s infinite;
+	-webkit-animation:zoom 3s linear 0.1s infinite;
+	-o-animation:zoom 3s linear 0.1s infinite;
+}
+.content .container_03 .coupon{width: 5.43rem; height: 26.9%; background: url(../images/suning.png) no-repeat center center; background-size: contain; position: absolute; top: 64.5%; left: 50%; margin-left: -2.715rem;}
+.content .container_03 .coupon .quan{ width: 3.74rem; height: 45.7%;margin:15.2% auto;}
+.content .container_03 .bear_mini{width: 1.3rem; height: 24.1%; background: url(../images/bear_mini.png) no-repeat center left; background-size: contain; position: absolute; bottom: 14.8%; left: 0;}
+.bear_mini_anime{
+	animation: shake_forward 2s linear infinite;
+	-moz-animation:shake_forward 2s linear infinite;
+	-webkit-animation:shake_forward 2s linear infinite;
+	-ms-animation:shake_forward 2s linear infinite;
+	-o-animation:shake_forward 2s linear infinite;
+}
+.content .container_03 .robat_mini{width: 1.42rem; height: 23.3%; background: url(../images/robat_mini.png) no-repeat center right; background-size: contain;position: absolute; bottom: 8.6%; right: 0;}
+.robat_mini_anime{
+	animation: shake_negative 2s linear infinite;
+	-moz-animation:shake_negative 2s linear infinite;
+	-webkit-animation:shake_negative 2s linear infinite;
+	-ms-animation:shake_negative 2s linear infinite;
+	-o-animation:shake_negative 2s linear infinite;
+}
+.content .container_03 .boy_baby_mini{width: 1.72rem; height: 21.9%; background: url(../images/boy_baby_mini.png) no-repeat bottom left; background-size: contain; position: absolute; bottom: 0; left: -3px;;}
+.boy_baby_mini_anime{
+	animation: shake_negative 2s linear infinite;
+	-moz-animation:shake_negative 2s linear infinite;
+	-webkit-animation:shake_negative 2s linear infinite;
+	-ms-animation:shake_negative 2s linear infinite;
+	-o-animation:shake_negative 2s linear infinite;
+}
+.content .container_03 .girl_baby_mini{width: 1.8rem; height: 19.8%; background: url(../images/girl_baby_mini.png) no-repeat bottom right; background-size: contain; position: absolute; bottom: 0; right: -3px;}
+.girl_baby_mini_anime{
+	animation: shake_forward 2s linear infinite;
+	-moz-animation:shake_forward 2s linear infinite;
+	-webkit-animation:shake_forward 2s linear infinite;
+	-ms-animation:shake_forward 2s linear infinite;
+	-o-animation:shake_forward 2s linear infinite;
+}
+.content .container_03 .foot_font{width: 100%; height: auto; text-align: center; font-size: 0.28rem; color: #fff; position: absolute; bottom: 3.3%;}
+
+
+/* container_03进入动画 开始 */
+.in_grade{
+	animation:custom_moves_down 4s linear 1 forwards;
+	-moz-animation:custom_moves_down 4s linear 1 forwards;
+	-webkit-animation:custom_moves_down 4s linear 1 forwards;
+	-o-animation:custom_moves_down 4s linear 1 forwards;
+	-ms-animation:custom_moves_down 4s linear 1 forwards;
+}
+.in_fen{
+	animation:custom_moves_down 4s linear 1 forwards;
+	-moz-animation:custom_moves_down 4s linear 1 forwards;
+	-webkit-animation:custom_moves_down 4s linear 1 forwards;
+	-o-animation:custom_moves_down 4s linear 1 forwards;
+	-ms-animation:custom_moves_down 4s linear 1 forwards;
+}
+.in_exceed{
+	animation:custom_moves_down 4s linear 1 forwards;
+	-moz-animation:custom_moves_down 4s linear 1 forwards;
+	-webkit-animation:custom_moves_down 4s linear 1 forwards;
+	-o-animation:custom_moves_down 4s linear 1 forwards;
+	-ms-animation:custom_moves_down 4s linear 1 forwards;
+}
+.in_btn_share{
+	animation:custom_moves_down 4s linear 1 forwards;
+	-moz-animation:custom_moves_down 4s linear 1 forwards;
+	-webkit-animation:custom_moves_down 4s linear 1 forwards;
+	-o-animation:custom_moves_down 4s linear 1 forwards;
+	-ms-animation:custom_moves_down 4s linear 1 forwards;
+}
+.in_coupon{
+	animation:custom_moves_up 4s linear 1 forwards;
+	-moz-animation:custom_moves_up 4s linear 1 forwards;
+	-webkit-animation:custom_moves_up 4s linear 1 forwards;
+	-o-animation:custom_moves_up 4s linear 1 forwards;
+	-ms-animation:custom_moves_up 4s linear 1 forwards;
+}
+.in_bear_mini{
+	animation:custom_moves_left 4s linear 1 forwards;
+	-moz-animation:custom_moves_left 4s linear 1 forwards;
+	-webkit-animation:custom_moves_left 4s linear 1 forwards;
+	-o-animation:custom_moves_left 4s linear 1 forwards;
+	-ms-animation:custom_moves_left 4s linear 1 forwards;
+}
+.in_robat_mini{
+	animation:custom_moves_right 4s linear 1 forwards;
+	-moz-animation:custom_moves_right 4s linear 1 forwards;
+	-webkit-animation:custom_moves_right 4s linear 1 forwards;
+	-o-animation:custom_moves_right 4s linear 1 forwards;
+	-ms-animation:custom_moves_right 4s linear 1 forwards;
+}
+.in_boy_baby_mini{
+	animation:custom_moves_left 4s linear 1 forwards;
+	-moz-animation:custom_moves_left 4s linear 1 forwards;
+	-webkit-animation:custom_moves_left 4s linear 1 forwards;
+	-o-animation:custom_moves_left 4s linear 1 forwards;
+	-ms-animation:custom_moves_left 4s linear 1 forwards;
+}
+.in_girl_baby_mini{
+	animation:custom_moves_right 4s linear 1 forwards;
+	-moz-animation:custom_moves_right 4s linear 1 forwards;
+	-webkit-animation:custom_moves_right 4s linear 1 forwards;
+	-o-animation:custom_moves_right 4s linear 1 forwards;
+	-ms-animation:custom_moves_right 4s linear 1 forwards;
+}
+.in_foot_font{
+	animation:custom_moves_up 4s linear 1 forwards;
+	-moz-animation:custom_moves_up 4s linear 1 forwards;
+	-webkit-animation:custom_moves_up 4s linear 1 forwards;
+	-o-animation:custom_moves_up 4s linear 1 forwards;
+	-ms-animation:custom_moves_up 4s linear 1 forwards;
+}
+/* container_03进入动画 结束 */

@@ -1,0 +1,174 @@
+
+.content .container_01{width: 100%; height: 100%;}
+.content .container_01{width: 100%; height: 100%; position: absolute; overflow: hidden;}
+.content .container_01 .bear{ width: 2.14rem; height:26.3%; background: url(../images/bear.png) no-repeat top left; background-size: contain; position: absolute; top: 0; left: 0;}
+.content .container_01 .cat{ width: 2.23rem; height:21.6%; background: url(../images/cat.png) no-repeat top right; background-size: contain; position: absolute; top: 0; right: 0;}
+.content .container_01 .pig{ width: 1.36rem; height:19.5%; background: url(../images/pig.png) no-repeat center left; background-size: contain; position: absolute; top: 32%; left: -3px;}
+.content .container_01 .robat{ width: 1.53rem; height:35.1%; background: url(../images/robat.png) no-repeat center right; background-size: contain; position: absolute; top: 31.6%; right: -3px;}
+.content .container_01 .boy_baby{ width: 3.05rem; height:48.4%; background: url(../images/boy_baby.png) no-repeat top left; background-size: contain; position: absolute;  bottom: 0; left: 0;}
+.content .container_01 .girl_baby{ width: 2.53rem; height:32.2%; background: url(../images/girl_baby.png) no-repeat top right; background-size: contain; position: absolute; bottom: 0; right: 0;}
+.content .container_01 .logo{ width: 2.24rem; height: 7%; background: url(../images/logo.png) no-repeat center center; background-size: contain; position: absolute; top: 12.4%; left: 50%; margin-left: -1.12rem;}
+.content .container_01 .font_01{width: 3.17rem; height: 10.5%; background: url(../images/font_01.png) no-repeat center center; background-size: contain; position: absolute; top:22.8%; left: 50%; margin-left: -1.585rem;}
+.content .container_01 .font_02{width: 2.87rem; height: 6.8%; background: url(../images/font_02.png) no-repeat center center; background-size: contain; position: absolute; top:33.8%; left: 50%; margin-left: -1.435rem;}
+.content .container_01 .font_03{width: 3.46rem; height: 10.8%; background: url(../images/font_03.png) no-repeat center center; background-size: contain; position: absolute; top:41.6%; left: 50%; margin-left: -1.73rem;}
+.content .container_01 .font_04{width: 1.43rem; height: 3.7%; background: url(../images/font_04.png) no-repeat center center; background-size: contain; position: absolute; top:53.6%;left: 50%;}
+.content .container_01 .btn_start{width: 2.65rem; height: 8.4%; background: url(../images/btn_start.png) no-repeat center center; background-size: contain; position: absolute; top:62.5%; left: 50%; margin-left: -1.325rem;}
+
+/* container_01动画 开始 */
+.bear_anime{
+	animation: shake_forward 2s linear infinite;
+	-moz-animation:shake_forward 2s linear infinite;
+	-webkit-animation:shake_forward 2s linear infinite;
+	-ms-animation:shake_forward 2s linear infinite;
+	-o-animation:shake_forward 2s linear infinite;
+}
+.cat_anime{
+	animation: shake_negative 2s linear infinite;
+	-moz-animation:shake_negative 2s linear infinite;
+	-webkit-animation:shake_negative 2s linear infinite;
+	-ms-animation:shake_negative 2s linear infinite;
+	-o-animation:shake_negative 2s linear infinite;
+}
+.pig_anime{
+	animation: shake_negative 2s linear infinite;
+	-moz-animation:shake_negative 2s linear infinite;
+	-webkit-animation:shake_negative 2s linear infinite;
+	-ms-animation:shake_negative 2s linear infinite;
+	-o-animation:shake_negative 2s linear infinite;
+}
+.robat_anime{
+	animation: shake_forward 2s linear infinite;
+	-moz-animation:shake_forward 2s linear infinite;
+	-webkit-animation:shake_forward 2s linear infinite;
+	-ms-animation:shake_forward 2s linear infinite;
+	-o-animation:shake_forward 2s linear infinite;
+}
+.boy_baby_anime{
+	animation: shake_forward 2s linear infinite;
+	-moz-animation:shake_forward 2s linear infinite;
+	-webkit-animation:shake_forward 2s linear infinite;
+	-ms-animation:shake_forward 2s linear infinite;
+	-o-animation:shake_forward 2s linear infinite;
+}
+.girl_baby_anime{
+	animation: shake_negative 2s linear infinite;
+	-moz-animation:shake_negative 2s linear infinite;
+	-webkit-animation:shake_negative 2s linear infinite;
+	-ms-animation:shake_negative 2s linear infinite;
+	-o-animation:shake_negative 2s linear infinite;
+}
+.logo_anime{
+	animation: sway_01 linear 2s infinite;
+	-moz-animation:sway_01 linear 2s infinite;
+	-ms-animation:sway_01 linear 2s infinite;
+	-webkit-animation:sway_01 linear 2s infinite;
+	-o-animation:sway_01 linear 2s infinite;
+}
+.font_01_anime{
+	animation: zoom linear 3s infinite;
+	-ms-animation:zoom linear 3s infinite;
+	-moz-animation:zoom linear 3s infinite;
+	-webkit-animation:zoom linear 3s infinite;
+	-o-animation:zoom linear 3s infinite;
+}
+.font_02_anime{
+	animation: zoom 3s linear 0.1s infinite;
+	-ms-animation:zoom 3s linear 0.1s infinite;
+	-moz-animation:zoom 3s linear 0.1s infinite;
+	-webkit-animation:zoom 3s linear 0.1s infinite;
+	-o-animation:zoom 3s linear 0.1s infinite;
+}
+.font_03_anime{
+	animation: zoom 3s linear 0.2s infinite;
+	-ms-animation:zoom 3s linear 0.2s infinite;
+	-moz-animation:zoom 3s linear 0.2s infinite;
+	-webkit-animation:zoom 3s linear 0.2s infinite;
+	-o-animation:zoom 3s linear 0.2s infinite;
+}
+.font_04_anime{
+	animation: zoom 3s linear 0.3s infinite;
+	-ms-animation:zoom 3s linear 0.3s infinite;
+	-moz-animation:zoom 3s linear 0.3s infinite;
+	-webkit-animation:zoom 3s linear 0.3s infinite;
+	-o-animation:zoom 3s linear 0.3s infinite;
+}
+.btn_start_anime{
+	animation: sway_02 linear 3.2s infinite;
+	-ms-animation:sway_02 linear 3.2s infinite;
+	-moz-animation:sway_02 linear 3.2s infinite;
+	-webkit-animation:sway_02 linear 3.2s infinite;
+	-o-animation:sway_02 linear 3.2s infinite;
+}
+/* container_01动画 结束 */
+
+/* container_01退出动画 */
+.out_bear{
+	animation: left_move 0.3s linear forwards;
+	-ms-animation:left_move 0.3s linear forwards;
+	-moz-animation:left_move 0.3s linear forwards;
+	-webkit-animation:left_move 0.3s linear forwards;
+	-o-animation:left_move 0.3s linear forwards;
+}
+.out_cat{
+	animation: right_move 0.3s linear 0.05s forwards;
+	-ms-animation:right_move 0.3s linear 0.05s forwards;
+	-moz-animation:right_move 0.3s linear 0.05s forwards;
+	-webkit-animation:right_move 0.3s linear 0.05s forwards;
+	-o-animation:right_move 0.3s linear 0.05s forwards;
+}
+.out_pig{
+	animation: left_move 0.3s linear 0.1s forwards;
+	-ms-animation:left_move 0.3s linear 0.1s forwards;
+	-moz-animation:left_move 0.3s linear 0.1s forwards;
+	-webkit-animation:left_move 0.3s linear 0.1s forwards;
+	-o-animation:left_move 0.3s linear 0.1s forwards;
+}
+.out_rabat{
+	animation: right_move 0.3s linear 0.15s forwards;
+	-ms-animation:right_move 0.3s linear 0.15s forwards;
+	-moz-animation:right_move 0.3s linear 0.15s forwards;
+	-webkit-animation:right_move 0.3s linear 0.15s forwards;
+	-o-animation:right_move 0.3s linear 0.15s forwards;
+}
+.out_boybaby{
+	animation: left_move 0.3s linear 0.2s forwards;
+	-ms-animation:left_move 0.3s linear 0.2s forwards;
+	-moz-animation:left_move 0.3s linear 0.2s forwards;
+	-webkit-animation:left_move 0.3s linear 0.2s forwards;
+	-o-animation:left_move 0.3s linear 0.2s forwards;
+}
+.out_girlbaby{
+	animation: right_move 0.3s linear 0.25s forwards;
+	-ms-animation:right_move 0.3s linear 0.25s forwards;
+	-moz-animation:right_move 0.3s linear 0.25s forwards;
+	-webkit-animation:right_move 0.3s linear 0.25s forwards;
+	-o-animation:right_move 0.3s linear 0.25s forwards;
+}
+.out_logo{
+	animation: top_move 0.4s linear 0.25s forwards;
+	-ms-animation:top_move 0.4s linear 0.25s forwards;
+	-moz-animation:top_move 0.4s linear 0.25s forwards;
+	-webkit-animation:top_move 0.4s linear 0.25s forwards;
+	-o-animation:top_move 0.4s linear 0.25s forwards;
+}
+.out_font01,.out_font03{
+	animation: left_move 0.4s linear 0.25s forwards;
+	-ms-animation:left_move 0.4s linear 0.25s forwards;
+	-moz-animation:left_move 0.4s linear 0.25s forwards;
+	-webkit-animation:left_move 0.4s linear 0.25s forwards;
+	-o-animation:left_move 0.4s linear 0.25s forwards;
+}
+.out_font02,.out_font04{
+	animation: right_move 0.4s linear 0.25s forwards;
+	-ms-animation:right_move 0.4s linear 0.25s forwards;
+	-moz-animation:right_move 0.4s linear 0.25s forwards;
+	-webkit-animation:right_move 0.4s linear 0.25s forwards;
+	-o-animation:right_move 0.4s linear 0.25s forwards;
+}
+.out_btnstart{
+	animation: bottom_move 0.4s linear 0.25s forwards;
+	-ms-animation:bottom_move 0.4s linear 0.25s forwards;
+	-moz-animation:bottom_move 0.4s linear 0.25s forwards;
+	-webkit-animation:bottom_move 0.4s linear 0.25s forwards;
+	-o-animation:bottom_move 0.4s linear 0.25s forwards;
+}
