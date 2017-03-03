@@ -21,7 +21,7 @@ $(function(){
 	if(window.orientation!=0){
         var obj=document.getElementById('orientation');
         alert('横屏情况下不能正常显示，请竖屏!');
-        obj.style.display='block';
+        
 	}
 
 	window.onorientationchange=function(){ 
@@ -32,7 +32,7 @@ $(function(){
 	        }else
 	        {
 	                alert('横屏情况下不能正常显示，请竖屏!');
-	                obj.style.display='block';
+	               
 	        }
 	};  
 
