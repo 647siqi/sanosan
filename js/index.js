@@ -20,9 +20,13 @@ $(function(){
 	//禁止横屏显示
 	if(window.orientation!=0){
         var obj=document.getElementById('orientation');
+<<<<<<< Updated upstream
         alert('横屏情况下不能正常显示，请竖屏!');
         
 	}
+=======
+        alert('横屏情况下不能正常显示，请竖屏!');	}
+>>>>>>> Stashed changes
 
 	window.onorientationchange=function(){ 
 	var obj=document.getElementById('orientation');
@@ -32,7 +36,10 @@ $(function(){
 	        }else
 	        {
 	                alert('横屏情况下不能正常显示，请竖屏!');
+<<<<<<< Updated upstream
 	               
+=======
+>>>>>>> Stashed changes
 	        }
 	};  
 
