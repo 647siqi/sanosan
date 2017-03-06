@@ -134,7 +134,7 @@ $(function(){
 			});
 		}
 		else if (ifAllcl=="false") {
-			$('.container_02_bg .btn_start02').css("background-image","url(../sanosan/images/btn_next.png)");
+			$('.container_02_bg .btn_start02').css("background-image","url(../master/images/btn_next.png)");
 			$('.panel_font').eq(Num).find('div').each(function(){
 				$(this).addClass($(this).attr('inclass'));
 			});
@@ -168,13 +168,13 @@ $(function(){
 		Score=Score<20?20:Score;
 		
 		C3.find('div.grade').find('span').text(Score);
-		C3.find('div.fen').css('background-image','url(../sanosan/images/fen_'+Score+'.png)');
+		C3.find('div.fen').css('background-image','url(../master/images/fen_'+Score+'.png)');
 		C3.find('div.exceed').find('span').text(eval("font_"+Score)[0]);
 		C3.find('div.foot_font').text(eval("font_"+Score)[1]);
 		if (Score<=40) {
-			C3.find('div.btn_share').css('background-image','url(../sanosan/images/btn_cry.png)');
+			C3.find('div.btn_share').css('background-image','url(../master/images/btn_cry.png)');
 		}else{
-			C3.find('div.btn_share').css('background-image','url(../sanosan/images/btn_bask.png)');
+			C3.find('div.btn_share').css('background-image','url(../master/images/btn_bask.png)');
 		};
 
 
