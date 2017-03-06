@@ -20,6 +20,10 @@ $(function(){
 	//禁止横屏显示
 	if(window.orientation!=0){
         var obj=document.getElementById('orientation');
+<<<<<<< HEAD
+=======
+
+>>>>>>> 45a81bbbc5611103c3df52c6bd068ca19704d97b
         alert('横屏情况下不能正常显示，请竖屏!');
         
 	}
