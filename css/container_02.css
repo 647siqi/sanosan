@@ -36,21 +36,20 @@
 	-o-animation:sway_02 linear 3s infinite;
 }
 
-.content .container_02 .panel_font{ width: 100%; height: 100%; position: absolute; top: 0; z-index: 0;  font-size:0.34rem; visibility: hidden;}
+.content .container_02 .panel_font{ width: 5.9rem; height: 70.3%; position: absolute; top: 0.94rem; left: 50%; margin-left: -2.95rem; z-index: 0;  font-size:0.34rem; visibility: hidden;}
 
-.content .container_02 .panel_font .explain{text-align: center; position: relative; top: 3.2rem;}
+.content .container_02 .panel_font .explain{text-align: center; position: relative; top: 32%;}
 .explain+.explain{margin-top: 0.1rem;}
 
 
-
-.content .container_02 .panel_font .aidou{width: 2.8rem; height:5.1%; margin-top: 30.3%;margin-left: 0.9rem;}
-.content .container_02 .panel_font .question{ width: 4.82rem; height: auto; text-align: justify; line-height: 0.45rem; word-wrap:break-word; margin-top: 8.5%; margin-left: 0.9rem;}
-.content .container_02 .panel_font .answer{width: 100%; height: auto; margin-top:6.5%; margin-left: 0.9rem;}
-.content .container_02 .panel_font .aidou_01{background: url(../images/aidou_01.png) center center no-repeat; background-size: contain;}
-.content .container_02 .panel_font .aidou_02{background: url(../images/aidou_02.png) center center no-repeat; background-size: contain;}
-.content .container_02 .panel_font .aidou_03{background: url(../images/aidou_03.png) center center no-repeat; background-size: contain;}
-.content .container_02 .panel_font .aidou_04{background: url(../images/aidou_04.png) center center no-repeat; background-size: contain;}
-.content .container_02 .panel_font .aidou_05{background: url(../images/aidou_05.png) center center no-repeat; background-size: contain;}
+.content .container_02 .panel_font .aidou{width: 2.8rem; height:5.1%; margin-top: 16%;margin-left: 0.7rem;}
+.content .container_02 .panel_font .question{ width: 4.52rem; height: auto; text-align: justify; line-height: 0.45rem; word-wrap:break-word; margin-top: 8%; margin-left: 0.7rem;}
+.content .container_02 .panel_font .answer{width: 100%; height: auto; margin-top:5%; margin-left: 0.7rem;}
+.content .container_02 .panel_font .aidou_01{background: url(../images/aidou_01.png) center left no-repeat; background-size: contain;}
+.content .container_02 .panel_font .aidou_02{background: url(../images/aidou_02.png) center left no-repeat; background-size: contain;}
+.content .container_02 .panel_font .aidou_03{background: url(../images/aidou_03.png) center left no-repeat; background-size: contain;}
+.content .container_02 .panel_font .aidou_04{background: url(../images/aidou_04.png) center left no-repeat; background-size: contain;}
+.content .container_02 .panel_font .aidou_05{background: url(../images/aidou_05.png) center left no-repeat; background-size: contain;}
 
  input,label{display: inline-block; margin-bottom: 0.1rem;} 
 

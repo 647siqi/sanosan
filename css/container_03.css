@@ -7,23 +7,30 @@
 .content .container_03 .grade span{font-size: 0.48rem;}
 .content .container_03 .fen{width: 4.29rem; height: 12.6%; background-repeat: no-repeat; background-size: contain;background-position: center center; position: absolute; top:29.7%; left: 50%; margin-left: -2.145rem;}
 .fen_anime{
-	animation: zoom linear 3s infinite;
-	-ms-animation:zoom linear 3s infinite;
-	-moz-animation:zoom linear 3s infinite;
-	-webkit-animation:zoom linear 3s infinite;
-	-o-animation:zoom linear 3s infinite;
+	animation: zoom 3s linear infinite;
+	-ms-animation:zoom 3s linear infinite;
+	-moz-animation:zoom 3s linear infinite;
+	-webkit-animation:zoom 3s linear infinite;
+	-o-animation:zoom 3s linear infinite;
 }
 .content .container_03 .exceed{width: 100%; text-align: center; font-size: 0.34rem; position: absolute; top: 43.3%;}
 .content .container_03 .btn_share{width: 3.25rem; height: 14.5%; background-image: url(../images/btn_bask.png);background-repeat: no-repeat; background-size: contain;background-position: center center; position: absolute; top: 50.5%; left: 50%; margin-left: -1.625rem;}
 .btn_share_anime{
-	animation: zoom 3s linear 0.1s infinite;
-	-ms-animation:zoom 3s linear 0.1s infinite;
-	-moz-animation:zoom 3s linear 0.1s infinite;
-	-webkit-animation:zoom 3s linear 0.1s infinite;
-	-o-animation:zoom 3s linear 0.1s infinite;
+	animation: zoom 3s linear 0.2s infinite;
+	-ms-animation:zoom 3s linear 0.2s infinite;
+	-moz-animation:zoom 3s linear 0.2s infinite;
+	-webkit-animation:zoom 3s linear 0.2s infinite;
+	-o-animation:zoom 3s linear 0.2s infinite;
 }
 .content .container_03 .coupon{width: 5.43rem; height: 26.9%; background: url(../images/suning.png) no-repeat center center; background-size: contain; position: absolute; top: 64.5%; left: 50%; margin-left: -2.715rem;}
 .content .container_03 .coupon .quan{ width: 3.74rem; height: 45.7%;margin:15.2% auto;}
+.quan_anime{
+	animation: sway_02 2s linear 1s infinite;
+	-moz-animation:sway_02 2s linear 1s infinite;
+	-ms-animation:sway_02 2s linear 1s infinite;
+	-webkit-animation:sway_02 2s linear 1s infinite;
+	-o-animation:sway_02 2s linear 1s infinite;
+}
 .content .container_03 .bear_mini{width: 1.3rem; height: 24.1%; background: url(../images/bear_mini.png) no-repeat center left; background-size: contain; position: absolute; bottom: 14.8%; left: 0;}
 .bear_mini_anime{
 	animation: shake_forward 2s linear infinite;

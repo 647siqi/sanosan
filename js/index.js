@@ -20,13 +20,9 @@ $(function(){
 	//禁止横屏显示
 	if(window.orientation!=0){
         var obj=document.getElementById('orientation');
-<<<<<<< Updated upstream
         alert('横屏情况下不能正常显示，请竖屏!');
         
 	}
-=======
-        alert('横屏情况下不能正常显示，请竖屏!');	}
->>>>>>> Stashed changes
 
 	window.onorientationchange=function(){ 
 	var obj=document.getElementById('orientation');
@@ -36,12 +32,17 @@ $(function(){
 	        }else
 	        {
 	                alert('横屏情况下不能正常显示，请竖屏!');
-<<<<<<< Updated upstream
-	               
-=======
->>>>>>> Stashed changes
 	        }
-	};  
+	};
+
+	var  anime_C1=setInterval(function(){
+			$('.content .container_01').find('div').each(function(){
+				if ($(this).attr('alclass')) {
+					$(this).addClass($(this).attr('alclass'));
+				};
+			});
+			clearInterval(anime_C1);
+		},500)
 
 	//求助按钮
 	$('.btn_help').click(function(){
@@ -133,7 +134,7 @@ $(function(){
 			});
 		}
 		else if (ifAllcl=="false") {
-			$('.container_02_bg .btn_start02').css("background-image","url(../master/images/btn_next.png)");
+			$('.container_02_bg .btn_start02').css("background-image","url(../sanosan/images/btn_next.png)");
 			$('.panel_font').eq(Num).find('div').each(function(){
 				$(this).addClass($(this).attr('inclass'));
 			});
@@ -167,13 +168,13 @@ $(function(){
 		Score=Score<20?20:Score;
 		
 		C3.find('div.grade').find('span').text(Score);
-		C3.find('div.fen').css('background-image','url(../master/images/fen_'+Score+'.png)');
+		C3.find('div.fen').css('background-image','url(../sanosan/images/fen_'+Score+'.png)');
 		C3.find('div.exceed').find('span').text(eval("font_"+Score)[0]);
 		C3.find('div.foot_font').text(eval("font_"+Score)[1]);
 		if (Score<=40) {
-			C3.find('div.btn_share').css('background-image','url(../master/images/btn_cry.png)');
+			C3.find('div.btn_share').css('background-image','url(../sanosan/images/btn_cry.png)');
 		}else{
-			C3.find('div.btn_share').css('background-image','url(../master/images/btn_bask.png)');
+			C3.find('div.btn_share').css('background-image','url(../sanosan/images/btn_bask.png)');
 		};
 
 
